@@ -3,6 +3,7 @@ import usePrevious from "./fristUse"
 
 function Demo1(){
   const [count,setCount] = useState(0);
+  console.log(2)
   const handleAlertClick = () => {
     setTimeout(() => {
       alert(`Yout clicked me: ${count}`)
